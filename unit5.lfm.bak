@@ -1,0 +1,60 @@
+object Form5: TForm5
+  Left = 300
+  Height = 294
+  Top = 177
+  Width = 747
+  HorzScrollBar.Page = 737
+  HorzScrollBar.Range = 739
+  VertScrollBar.Page = 208
+  VertScrollBar.Range = 208
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Инструкция к программе'
+  ClientHeight = 277
+  ClientWidth = 747
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 150
+    Top = 8
+    Width = 739
+    Caption = 'Здравствуйте, раз вы открыли программу, моя обязанность ознакомить вас с ней.'#13#10'Программа используется для вычислительных операций. В подтеме решебник, вы '#13#10'увидитедве вкладки: "Алгебра" и "Геометрия". Во вкладке "Алгебра" есть автома-'#13#10'тическое решение квадратного уравнения ,вычисление среднего арифметичес-'#13#10'кого числа и многое другое. Во вкладке "Геометрия" можно вычислить площадь,'#13#10'периметр геометрических фигур  и др.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 2
+    Height = 69
+    Top = 160
+    Width = 641
+    Caption = 'Не пользуйтесь этой программой для '#13#10'решения задач. Собственные знания важнее компьютерных. Программа служит '#13#10'для проверки решения. Желаю удачи.'
+    Color = clRed
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 32
+    Top = 240
+    Width = 97
+    Caption = 'Назад'
+    OnClick = Button1Click
+    ParentShowHint = False
+    TabOrder = 0
+  end
+end

@@ -1,0 +1,60 @@
+object Form5: TForm5
+  Left = 278
+  Height = 294
+  Top = 178
+  Width = 775
+  HorzScrollBar.Page = 737
+  HorzScrollBar.Range = 739
+  VertScrollBar.Page = 208
+  VertScrollBar.Range = 208
+  BorderIcons = [biSystemMenu, biMinimize]
+  Caption = 'Инструкция к программе'
+  ClientHeight = 277
+  ClientWidth = 775
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 125
+    Top = 8
+    Width = 739
+    Caption = 'Здравствуйте, раз вы открыли программу, моя обязанность ознакомить вас с ней.'#13#10'Программа используется для вычислительных операций. При нажатии на кнопку '#13#10'решебник, вы увидите две вкладки: "Математика" и "Конвертер". Во вкладке '#13#10'"Математика" есть автоматическое решение различных задач. Во вкладке'#13#10'"конвертер" Вы можете преобразовывать единицы измерения.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 2
+    Height = 69
+    Top = 160
+    Width = 641
+    Caption = 'Не пользуйтесь этой программой для '#13#10'решения задач. Собственные знания важнее компьютерных. Программа служит '#13#10'для проверки решения. Желаю удачи.'
+    Color = clRed
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Transparent = False
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 32
+    Top = 240
+    Width = 97
+    Caption = 'Назад'
+    OnClick = Button1Click
+    ParentShowHint = False
+    TabOrder = 0
+  end
+end
